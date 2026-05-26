@@ -1,0 +1,67 @@
+{
+    "name": "Ulises D'Agostino",
+    "job": "Software Engineer",
+    "description": "Fullstack con foco en resolver problemas reales. Curioso por naturaleza.",
+    "contact": {
+        "email": "[EMAIL_ADDRESS]",
+        "linkedin": "https://www.linkedin.com/in/ulises-d-agostino-7aa3582a8/",
+        "github": "https://github.com/Momosno",
+        "phone": "+54 9 11-5915-2402"
+    },
+    "experience": [
+        {
+            "company": "Freelance",
+            "role": "Freelance",
+            "description": "Diseño de paginas web dinámicas, para la agilización de procesos para distintos clientes. Diseño de UX/UI utilizando Next.js. Desarrollo de aplicaciones pequeñas con python. Manejo de base de datos con SQL Server, MySQL y PostgreSQL.",
+            "period": "2023 - Actualidad"
+        },
+        {
+            "company": "Ejército Argentino",
+            "role": "Técnico Informático",
+            "description": "Realización de tareas de reparación y configuración de PC, tanto de Hardware, como Software. Tareas de mantenimiento de servidores internos. Mantenimiento y optimización básica de sitios Web, con base de dato. Actualización de personal a través de active directory. Tuve la oportunidad de diseñar una aplicación para la recolección de datos de forma remota, utilizando Python, la cual utilizo el ejercito de forma interna para la optimización de registros.    ",
+            "period": "204/2021 - 06/2023"
+        },
+        {
+            "company": "NAKASE S.R.L",
+            "role": "Practicas - Servicio Técnico",
+            "description": "Tareas en el servicio técnico de sistemas industriales, sistemas de medición lineal y angular, marca Heidenhain.",
+            "period": "05/2018 - 10/2018"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Licenciatura en Desarrollo de software",
+            "university": "Universidad Nacional de San Martin",
+            "period": "2024 - En Curso"
+        },
+        {
+            "degree": "Tecnico en Electronica",
+            "university": "Escuela Secundaria Hölters Schule",
+            "period": "2012 - 2018"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Deutsches Sprachdiplom (DSD). Diploma de idioma Aleman",
+            "institution": "Nivel C1 alcanzado"
+        },
+        {
+            "name": "Diploma de UTN.BA de Programacion en Python",
+            "institution": "Nivel avanzado alcanzado"
+        }
+    ],
+    "languages": [
+        {
+            "name": "Español",
+            "level": "Nativo"
+        },
+        {
+            "name": "Inglés",
+            "level": "B2"
+        },
+        {
+            "name": "Alemán",
+            "level": "B1 - B2"
+        }
+    ]
+}
