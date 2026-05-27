@@ -1,0 +1,325 @@
+{
+    "projects": [
+        {
+            "name": "PCSpecs",
+            "period": "2022",
+            "description": "Aplicación local que desarrollé para obtener de manera remota las especificaciones de una computadora.",
+            "status": "Fuera de línea",
+            "links": {
+                "github": "https://github.com/Momosno/pcspecs",
+                "web": "-"
+            },
+            "technologies": [
+                "Python"
+            ],
+            "design_decisions": [
+                {
+                    "title": "Uso de sockets",
+                    "description": "Opté por usar sockets para la comunicación entre el cliente y el servidor, ya que el sistema debía correr en la red interna del ejército."
+                },
+                {
+                    "title": "Cliente - Servidor",
+                    "description": "Elegí una arquitectura cliente-servidor para facilitar el uso y la administración de la aplicación, separando responsabilidades y permisos en cada lado."
+                }
+            ],
+            "images": []
+        },
+        {
+            "name": "Scrapping Pagina Web",
+            "period": "2024 - 2025",
+            "description": "Aplicación local que construí para la generación automática de un catálogo, a partir de los datos públicos de un sitio web específico.",
+            "status": "Fuera de línea",
+            "links": {
+                "github": "https://github.com/Momosno/web-scrapping-valyria",
+                "web": "-"
+            },
+            "technologies": [
+                "Python",
+                "Selenium"
+            ],
+            "design_decisions": [
+                {
+                    "title": "Automatización de procesos",
+                    "description": "Automaticé la generación de catálogos porque era un proceso repetitivo y tedioso que podía resolverse con código."
+                },
+                {
+                    "title": "Uso de Selenium",
+                    "description": "Usé Selenium WebDriver para interactuar con el contenido dinámico de la página, ya que solo con requests no lograba obtener todos los datos necesarios."
+                },
+                {
+                    "title": "Scrapping con BeautifulSoup",
+                    "description": "Elegí BeautifulSoup para el scraper por ser una librería eficiente y accesible para aprender sobre el scraping web."
+                },
+                {
+                    "title": "Utilización de la librería 'docx'",
+                    "description": "Usé la librería docx para generar el catálogo final de forma automática en formato Word."
+                }
+            ],
+            "images": []
+        },
+        {
+            "name": "Background Remover",
+            "period": "2024",
+            "description": "Aplicación local que desarrollé para remover fondos de imágenes sin depender de servicios externos.",
+            "status": "Fuera de línea",
+            "links": {
+                "github": "https://github.com/Momosno/Remove-Background",
+                "web": "-"
+            },
+            "technologies": [
+                "Python"
+            ],
+            "design_decisions": [
+                {
+                    "title": "Uso de rembg",
+                    "description": "Opté por rembg porque se adapta muy bien a la mayoría de imágenes, con un margen de error aceptable para el uso que le daba."
+                }
+            ],
+            "images": []
+        },
+        {
+            "name": "La Pasionaria Orgánica",
+            "period": "2024",
+            "description": "Catálogo online que desarrollé para una empresa real de productos orgánicos, con automatización de pedidos vía WhatsApp.",
+            "status": "Online",
+            "links": {
+                "github": "https://github.com/Momosno/lapasionariaorganica-SIN-DB/",
+                "web": "https://ulismann.com.ar/"
+            },
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "design_decisions": [
+                {
+                    "title": "JavaScript puro",
+                    "description": "Elegí tecnologías básicas porque fue mi primer proyecto de esta escala para un cliente real, y no requería lógica compleja ni base de datos."
+                },
+                {
+                    "title": "Diseño responsivo",
+                    "description": "Implementé un diseño responsivo para que el sitio se adapte correctamente a diferentes dispositivos."
+                }
+            ],
+            "images": []
+        },
+        {
+            "name": "La Pasionaria Orgánica Norte",
+            "period": "2025 - 2026",
+            "description": "E-commerce que desarrollé para la venta de productos orgánicos, con flujo completo de compra online, pagos por Mercado Pago y panel de administrador para autogestión del sitio.",
+            "status": "Online",
+            "links": {
+                "github": "Privado",
+                "web": "https://lapasionariaorganicanorte.com.ar"
+            },
+            "technologies": [
+                "Next.js",
+                "JavaScript",
+                "TypeScript",
+                "Tailwind CSS",
+                "PostgreSQL",
+                "Supabase",
+                "Vercel",
+                "Claude Code"
+            ],
+            "design_decisions": [
+                {
+                    "title": "Utilización de Next.js",
+                    "description": "Elegí Next.js principalmente por tener Frontend y Backend en un mismo framework, su App Router, la simplicidad para trabajar con React y la integración nativa con Vercel."
+                },
+                {
+                    "title": "Utilización de TypeScript",
+                    "description": "Incorporé TypeScript en funcionalidades críticas como transacciones, para mantener la robustez y seguridad de la aplicación."
+                },
+                {
+                    "title": "Utilización de Tailwind CSS",
+                    "description": "Usé Tailwind CSS para acelerar el proceso de diseño y desarrollo del e-commerce."
+                },
+                {
+                    "title": "Utilización de Supabase",
+                    "description": "Elegí Supabase por su practicidad, bajo costo y por ofrecer una solución completa de backend como servicio: base de datos, autenticación y storage en un solo lugar."
+                },
+                {
+                    "title": "Utilización de Vercel",
+                    "description": "Deployé en Vercel por su excelente integración con Next.js, despliegue sencillo y escalabilidad."
+                },
+                {
+                    "title": "Utilización de Claude Code",
+                    "description": "Me apoyé en Claude Code para acelerar el desarrollo y el diseño del e-commerce, especialmente por ser el primer proyecto de esta magnitud que encaré."
+                }
+            ],
+            "images": []
+        },
+        {
+            "name": "PriceLab",
+            "period": "2026 - Actualidad",
+            "description": "Una aplicacion pensada para equipos pequenos de desarrolladores de juegos, la cual los ayuda a decidir el precio de su juego sin necesidad de analizar el mercado manualmente.",
+            "status": "En progreso",
+            "links": {
+                "github": "Privado",
+                "web": "-"
+            },
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS",
+                "Supabase",
+                "Claude Code"
+            ],
+            "design_decisions": [
+                {
+                    "title": "Utilizacion de IA",
+                    "description": "Me apoyé en la IA tanto para el desarrollo general de la aplicacion como para la generacion de precios. La finalidad de este proyecto fue mas que nada Experimental, el probar los limites de la IA y ver que era capaz de crear."
+                },
+                {
+                    "title": "Implementacion con Agentes",
+                    "description": "La finalidad del proyecto era probar que tan bien se puede estructurar un proyecto y programarlo a travez de un agente de IA"
+                }
+            ],
+            "images": []
+        },
+        {
+            "name": "Habit Tracker",
+            "period": "2026",
+            "description": "Una aplicacion movil que permite llevar un registro de habitos y rutinas diarias.",
+            "status": "En progreso",
+            "links": {
+                "github": "https://github.com/Momosno/habit-tracker",
+                "web": "https://habit-tracker-chi-gilt.vercel.app/"
+            },
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS",
+                "Supabase",
+                "Vercel",
+                "Claude Code"
+            ],
+            "design_decisions": [
+                {
+                    "title": "UI amigable",
+                    "description": "Encontraba que las aplicaciones para habitos o rutinas no eran lo suficientemente faciles de usar, asi que cree una a medida"
+                },
+                {
+                    "title": "Stack Next.js + Supabase + Vercel",
+                    "description": "Utilice este stack ya que me parece muy practico para proyectos personales, y permite tener un despliegue continuo y automatico a la nube"
+                }
+            ],
+            "images": []
+        },
+        {
+            "name": "Chatbot para Empresa + Dashboard",
+            "period": "2025",
+            "description": "Desarrollo de un Chatbot personalizado para automatizar la atencion al cliente a travez de WhatsApp y Telegram, junto con un dashboard para la visualizacion de estadisticas.",
+            "status": "Online",
+            "links": {
+                "github": "Privado",
+                "web": "https://dashboard.nuevosespacios.com.ar/"
+            },
+            "technologies": [
+                "N8N",
+                "Docker",
+                "Supabase",
+                "OpenAI API",
+                "Next.js",
+                "Nginx"
+            ],
+            "design_decisions": [
+                {
+                    "title": "N8N para la Automatizacion",
+                    "description": "Elegi N8N por ser una herramienta de automatizacion open source, que me permitio crear flujos de trabajo complejos para la automatizacion de la atencion al cliente."
+                },
+                {
+                    "title": "Docker para el despliegue",
+                    "description": "Utilice Docker para el despliegue de N8N, ya que me permitio una migracion muy rapida desde mi pc local al VPS."
+                },
+                {
+                    "title": "VPS privada",
+                    "description": "Utilice un VPS privado, para tener control total sobre los servicios y la posibilidad de utilizar Nginx."
+                },
+                {
+                    "title": "Nginx",
+                    "description": "Utilice Nginx para el manejo del proxy inverso, ya que la empresa contaba con un dominio, por lo que opte por la creacion de un subdominio para los servicios."
+                },
+                {
+                    "title": "OpenAI API para la IA",
+                    "description": "Utilice OpenAI API para la generacion de respuestas del chatbot."
+                },
+                {
+                    "title": "Next.js para el dashboard",
+                    "description": "Elegi Next.js para el dashboard, para una implementacion rapida y simple."
+                }
+            ],
+            "images": []
+        },
+        {
+            "name": "Landing Page - Nuevos Espacios",
+            "period": "2025",
+            "description": "Landing page para la empresa Nuevos Espacios, con el objetivo de mostrar sus servicios y facilitar el contacto con la empresa.",
+            "status": "Online",
+            "links": {
+                "github": "Privado",
+                "web": "https://nuevosespacios.com.ar/"
+            },
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS"
+            ],
+            "design_decisions": [],
+            "images": []
+        },
+        {
+            "name": "Landing Page - Pauli Belen",
+            "period": "2022 - Actualidad",
+            "description": "Landing page para una modelo e influencer, con la finalidad de mostrar links a sus redes sociales.",
+            "status": "Online",
+            "links": {
+                "github": "Privado",
+                "web": "https://paulibelen.com"
+            },
+            "technologies": [
+                "Next.js",
+                "Javascript",
+                "Tailwind CSS"
+            ],
+            "design_decisions": [
+                {
+                    "title": "Diseño minimalista",
+                    "description": "Elegi un diseño minimalista, ya que la finalidad de la landing page es mostrar los links a sus redes sociales, sin distracciones."
+                },
+                {
+                    "title": "Responsive design",
+                    "description": "Implemente un diseño responsive, para que la landing page se vea bien en cualquier dispositivo."
+                }
+            ],
+            "images": []
+        },
+        {
+            "name": "Landing Page - Paula Rojas",
+            "period": "2025",
+            "description": "Landing page para una modelo e influencer, con la finalidad de mostrar links a sus redes sociales.",
+            "status": "Online",
+            "links": {
+                "github": "Privado",
+                "web": "https://www.rojasspaula.com/"
+            },
+            "technologies": [
+                "Next.js",
+                "Javascript",
+                "Tailwind CSS"
+            ],
+            "design_decisions": [
+                {
+                    "title": "Diseño minimalista",
+                    "description": "Elegi un diseño minimalista, ya que la finalidad de la landing page es mostrar los links a sus redes sociales, sin distracciones."
+                },
+                {
+                    "title": "Responsive design",
+                    "description": "Implemente un diseño responsive, para que la landing page se vea bien en cualquier dispositivo."
+                }
+            ],
+            "images": []
+        }
+    ]
+}
