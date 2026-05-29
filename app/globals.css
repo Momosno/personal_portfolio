@@ -3,17 +3,31 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
 }
+
+@theme {
+  --color-rojo-primario: #9d0a36;
+  --color-intermedio-primario: #e08170;
+  --color-naranja-primario: #ffb067;
+  --drop-shadow-hero-svg: 0px 30px 35px rgba(0, 0, 0, 0.3);
+
+}
+
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-nunito: var(--font-nunito);
+  --font-erica-one: var(--font-erica-one);
+  --font-space-grotesk: var(--font-space-grotesk)
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+
     --background: #0a0a0a;
     --foreground: #ededed;
   }

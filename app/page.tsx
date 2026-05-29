@@ -1,13 +1,17 @@
 import projectsService from "@/lib/proyects-service"
-import { log } from "console";
+import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 
 export default function Page() {
 
   const projects = projectsService();
-  console.log(projects)
+  // console.log(projects)
 
 
   return (
-    <div></div>
+    <div className="w-full flex flex-col ">
+      <Hero />
+      <Projects />
+    </div>
   );
 }
