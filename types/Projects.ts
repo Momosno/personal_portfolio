@@ -1,4 +1,4 @@
-export interface Project {
+export default interface Project {
     name: string,
     period: string,
     description: string,

@@ -21,7 +21,9 @@
                 "description": "Elegí una arquitectura cliente-servidor para facilitar el uso y la administración de la aplicación, separando responsabilidades y permisos en cada lado."
             }
         ],
-        "images": []
+        "images": [
+            "project_images/pasionariaorganicanorte_portada.png"
+        ]
     },
     {
         "name": "Scrapping Pagina Web",

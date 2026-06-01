@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <div className="w-full flex flex-col ">
       <Hero />
-      <Projects />
+      <Projects projects={projects} />
     </div>
   );
 }

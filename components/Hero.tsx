@@ -16,6 +16,7 @@ export default function Hero() {
                     <h1 className="font-erica-one text-rojo-primario md:text-6xl text-5xl">Welcome, I am <br /><span>Ulises D'Agostino</span></h1>
                 </div>
             </div>
+
             <div className="absolute bottom-3 flex flex-col items-center">
                 <p className="font-nunito font-bold text-xl md:text-2xl font text-rojo-primario/50 -mb-2" >Proyectos</p>
                 <div className="text-2xl  font-nunito font-bold text-rojo-primario/50"><FaSortDown /></div>
