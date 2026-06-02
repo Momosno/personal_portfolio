@@ -22,7 +22,8 @@
   --font-mono: var(--font-geist-mono);
   --font-nunito: var(--font-nunito);
   --font-erica-one: var(--font-erica-one);
-  --font-space-grotesk: var(--font-space-grotesk)
+  --font-space-grotesk: var(--font-space-grotesk);
+  --font-montserrat: var(--font-montserrat);
 }
 
 @media (prefers-color-scheme: dark) {

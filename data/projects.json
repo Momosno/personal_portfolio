@@ -1,114 +1,11 @@
 [
     {
-        "name": "PCSpecs",
-        "period": "2022",
-        "description": "Aplicación local que desarrollé para obtener de manera remota las especificaciones de una computadora.",
-        "status": "Fuera de línea",
-        "links": {
-            "github": "https://github.com/Momosno/pcspecs",
-            "web": "-"
-        },
-        "technologies": [
-            "Python"
-        ],
-        "design_decisions": [
-            {
-                "title": "Uso de sockets",
-                "description": "Opté por usar sockets para la comunicación entre el cliente y el servidor, ya que el sistema debía correr en la red interna del ejército."
-            },
-            {
-                "title": "Cliente - Servidor",
-                "description": "Elegí una arquitectura cliente-servidor para facilitar el uso y la administración de la aplicación, separando responsabilidades y permisos en cada lado."
-            }
-        ],
-        "images": [
-            "project_images/pasionariaorganicanorte_portada.png"
-        ]
-    },
-    {
-        "name": "Scrapping Pagina Web",
-        "period": "2024 - 2025",
-        "description": "Aplicación local que construí para la generación automática de un catálogo, a partir de los datos públicos de un sitio web específico.",
-        "status": "Fuera de línea",
-        "links": {
-            "github": "https://github.com/Momosno/web-scrapping-valyria",
-            "web": "-"
-        },
-        "technologies": [
-            "Python",
-            "Selenium"
-        ],
-        "design_decisions": [
-            {
-                "title": "Automatización de procesos",
-                "description": "Automaticé la generación de catálogos porque era un proceso repetitivo y tedioso que podía resolverse con código."
-            },
-            {
-                "title": "Uso de Selenium",
-                "description": "Usé Selenium WebDriver para interactuar con el contenido dinámico de la página, ya que solo con requests no lograba obtener todos los datos necesarios."
-            },
-            {
-                "title": "Scrapping con BeautifulSoup",
-                "description": "Elegí BeautifulSoup para el scraper por ser una librería eficiente y accesible para aprender sobre el scraping web."
-            },
-            {
-                "title": "Utilización de la librería 'docx'",
-                "description": "Usé la librería docx para generar el catálogo final de forma automática en formato Word."
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Background Remover",
-        "period": "2024",
-        "description": "Aplicación local que desarrollé para remover fondos de imágenes sin depender de servicios externos.",
-        "status": "Fuera de línea",
-        "links": {
-            "github": "https://github.com/Momosno/Remove-Background",
-            "web": "-"
-        },
-        "technologies": [
-            "Python"
-        ],
-        "design_decisions": [
-            {
-                "title": "Uso de rembg",
-                "description": "Opté por rembg porque se adapta muy bien a la mayoría de imágenes, con un margen de error aceptable para el uso que le daba."
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "La Pasionaria Orgánica",
-        "period": "2024",
-        "description": "Catálogo online que desarrollé para una empresa real de productos orgánicos, con automatización de pedidos vía WhatsApp.",
-        "status": "Online",
-        "links": {
-            "github": "https://github.com/Momosno/lapasionariaorganica-SIN-DB/",
-            "web": "https://ulismann.com.ar/"
-        },
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "design_decisions": [
-            {
-                "title": "JavaScript puro",
-                "description": "Elegí tecnologías básicas porque fue mi primer proyecto de esta escala para un cliente real, y no requería lógica compleja ni base de datos."
-            },
-            {
-                "title": "Diseño responsivo",
-                "description": "Implementé un diseño responsivo para que el sitio se adapte correctamente a diferentes dispositivos."
-            }
-        ],
-        "images": []
-    },
-    {
         "name": "La Pasionaria Orgánica Norte",
+        "subtitle": "E-commerce desde cero",
         "period": "2025 - 2026",
-        "description": "E-commerce que desarrollé para la venta de productos orgánicos, con flujo completo de compra online, pagos por Mercado Pago y panel de administrador para autogestión del sitio.",
+        "description": "E-commerce desarrollado para la venta de productos orgánicos, con flujo completo de compra online, pagos por Mercado Pago y panel de administrador para autogestión del sitio.",
         "status": "Online",
+        "color": "red",
         "links": {
             "github": "Privado",
             "web": "https://lapasionariaorganicanorte.com.ar"
@@ -152,10 +49,125 @@
         "images": []
     },
     {
+        "name": "PCSpecs",
+        "subtitle": "Subtitulo de 8 palabras maximo seis siete ocho",
+        "period": "2022",
+        "description": "Aplicación local que desarrollé para obtener de manera remota las especificaciones de una computadora.",
+        "status": "Fuera de línea",
+        "color": "blue",
+        "links": {
+            "github": "https://github.com/Momosno/pcspecs",
+            "web": "-"
+        },
+        "technologies": [
+            "Python"
+        ],
+        "design_decisions": [
+            {
+                "title": "Uso de sockets",
+                "description": "Opté por usar sockets para la comunicación entre el cliente y el servidor, ya que el sistema debía correr en la red interna del ejército."
+            },
+            {
+                "title": "Cliente - Servidor",
+                "description": "Elegí una arquitectura cliente-servidor para facilitar el uso y la administración de la aplicación, separando responsabilidades y permisos en cada lado."
+            }
+        ],
+        "images": [
+            "project_images/pasionariaorganicanorte_portada.png"
+        ]
+    },
+    {
+        "name": "Scrapping Pagina Web",
+        "subtitle": "Subtitulo de 8 palabras maximo seis siete ocho",
+        "period": "2024 - 2025",
+        "description": "Aplicación local que construí para la generación automática de un catálogo, a partir de los datos públicos de un sitio web específico.",
+        "status": "Fuera de línea",
+        "color": "green",
+        "links": {
+            "github": "https://github.com/Momosno/web-scrapping-valyria",
+            "web": "-"
+        },
+        "technologies": [
+            "Python",
+            "Selenium"
+        ],
+        "design_decisions": [
+            {
+                "title": "Automatización de procesos",
+                "description": "Automaticé la generación de catálogos porque era un proceso repetitivo y tedioso que podía resolverse con código."
+            },
+            {
+                "title": "Uso de Selenium",
+                "description": "Usé Selenium WebDriver para interactuar con el contenido dinámico de la página, ya que solo con requests no lograba obtener todos los datos necesarios."
+            },
+            {
+                "title": "Scrapping con BeautifulSoup",
+                "description": "Elegí BeautifulSoup para el scraper por ser una librería eficiente y accesible para aprender sobre el scraping web."
+            },
+            {
+                "title": "Utilización de la librería 'docx'",
+                "description": "Usé la librería docx para generar el catálogo final de forma automática en formato Word."
+            }
+        ],
+        "images": []
+    },
+    {
+        "name": "Background Remover",
+        "subtitle": "Subtitulo de 8 palabras maximo seis siete ocho",
+        "period": "2024",
+        "description": "Aplicación local que desarrollé para remover fondos de imágenes sin depender de servicios externos.",
+        "status": "Fuera de línea",
+        "color": "gold",
+        "links": {
+            "github": "https://github.com/Momosno/Remove-Background",
+            "web": "-"
+        },
+        "technologies": [
+            "Python"
+        ],
+        "design_decisions": [
+            {
+                "title": "Uso de rembg",
+                "description": "Opté por rembg porque se adapta muy bien a la mayoría de imágenes, con un margen de error aceptable para el uso que le daba."
+            }
+        ],
+        "images": []
+    },
+    {
+        "name": "La Pasionaria Orgánica",
+        "subtitle": "Subtitulo de 8 palabras maximo seis siete ocho",
+        "period": "2024",
+        "description": "Catálogo online que desarrollé para una empresa real de productos orgánicos, con automatización de pedidos vía WhatsApp.",
+        "status": "Online",
+        "color": "purple",
+        "links": {
+            "github": "https://github.com/Momosno/lapasionariaorganica-SIN-DB/",
+            "web": "https://ulismann.com.ar/"
+        },
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "design_decisions": [
+            {
+                "title": "JavaScript puro",
+                "description": "Elegí tecnologías básicas porque fue mi primer proyecto de esta escala para un cliente real, y no requería lógica compleja ni base de datos."
+            },
+            {
+                "title": "Diseño responsivo",
+                "description": "Implementé un diseño responsivo para que el sitio se adapte correctamente a diferentes dispositivos."
+            }
+        ],
+        "images": []
+    },
+    {
         "name": "PriceLab",
+        "subtitle": "Subtitulo de 8 palabras maximo seis siete ocho",
         "period": "2026 - Actualidad",
         "description": "Una aplicacion pensada para equipos pequenos de desarrolladores de juegos, la cual los ayuda a decidir el precio de su juego sin necesidad de analizar el mercado manualmente.",
         "status": "En progreso",
+        "color": "gray",
         "links": {
             "github": "Privado",
             "web": "-"
@@ -181,9 +193,11 @@
     },
     {
         "name": "Habit Tracker",
+        "subtitle": "Subtitulo de 8 palabras maximo seis siete ocho",
         "period": "2026",
         "description": "Una aplicacion movil que permite llevar un registro de habitos y rutinas diarias.",
         "status": "En progreso",
+        "color": "orange",
         "links": {
             "github": "https://github.com/Momosno/habit-tracker",
             "web": "https://habit-tracker-chi-gilt.vercel.app/"
@@ -210,9 +224,11 @@
     },
     {
         "name": "Chatbot para Empresa + Dashboard",
+        "subtitle": "Subtitulo de 8 palabras maximo seis siete ocho",
         "period": "2025",
         "description": "Desarrollo de un Chatbot personalizado para automatizar la atencion al cliente a travez de WhatsApp y Telegram, junto con un dashboard para la visualizacion de estadisticas.",
         "status": "Online",
+        "color": "red",
         "links": {
             "github": "Privado",
             "web": "https://dashboard.nuevosespacios.com.ar/"
@@ -255,9 +271,11 @@
     },
     {
         "name": "Landing Page - Nuevos Espacios",
+        "subtitle": "Subtitulo de 8 palabras maximo seis siete ocho",
         "period": "2025",
         "description": "Landing page para la empresa Nuevos Espacios, con el objetivo de mostrar sus servicios y facilitar el contacto con la empresa.",
         "status": "Online",
+        "color": "gold",
         "links": {
             "github": "Privado",
             "web": "https://nuevosespacios.com.ar/"
@@ -272,9 +290,11 @@
     },
     {
         "name": "Landing Page - Pauli Belen",
+        "subtitle": "Subtitulo de 8 palabras maximo seis siete ocho",
         "period": "2022 - Actualidad",
         "description": "Landing page para una modelo e influencer, con la finalidad de mostrar links a sus redes sociales.",
         "status": "Online",
+        "color": "green",
         "links": {
             "github": "Privado",
             "web": "https://paulibelen.com"
@@ -298,9 +318,11 @@
     },
     {
         "name": "Landing Page - Paula Rojas",
+        "subtitle": "Subtitulo de 8 palabras maximo seis siete ocho",
         "period": "2025",
         "description": "Landing page para una modelo e influencer, con la finalidad de mostrar links a sus redes sociales.",
         "status": "Online",
+        "color": "blue",
         "links": {
             "github": "Privado",
             "web": "https://www.rojasspaula.com/"

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Erica_One, Space_Grotesk, Nunito } from "next/font/google";
+import { Geist, Geist_Mono, Erica_One, Space_Grotesk, Nunito, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,6 +13,12 @@ const erica_one = Erica_One({
   subsets: ["latin"],
   weight: "400"
 });
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  weight: ["400", "100", "200", "300", "500", "600", "700", "800", "900"],
+})
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -38,7 +44,7 @@ const space_grotesk = Space_Grotesk({
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
-    <html lang="en" className={` ${erica_one.variable} ${nunito.variable} ${space_grotesk.variable} h-full antialiased`}>
+    <html lang="en" className={` ${erica_one.variable} ${nunito.variable} ${montserrat.variable} ${space_grotesk.variable} h-full antialiased`}>
       <body className="min-h-full w-full flex flex-col ">{children}</body>
     </html>
   );

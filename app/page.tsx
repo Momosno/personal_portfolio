@@ -4,6 +4,7 @@ import Projects from "@/components/Projects";
 
 export default function Page() {
 
+  // Array de proyectos "projects"
   const projects = projectsService();
   // console.log(projects)
 
