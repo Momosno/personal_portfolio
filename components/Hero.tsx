@@ -13,7 +13,7 @@ export default function Hero() {
                     height={500}
                 />
                 <div>
-                    <h1 className="font-erica-one text-rojo-primario md:text-6xl text-5xl">Welcome, I am <br /><span>Ulises D'Agostino</span></h1>
+                    <h1 className="font-erica-one text-rojo-primario md:text-6xl text-5xl">Hola! Soy<br /><span>Ulises D'Agostino</span></h1>
                 </div>
             </div>
 

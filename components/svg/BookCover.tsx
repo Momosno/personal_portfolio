@@ -30,7 +30,6 @@ const SvgComponent = ({ color, ...props }: BookCoverProps) => {
             y={0}
             viewBox="0 0 806.06 1013.47"
             width="100%"
-
             height="auto"
 
             {...props}

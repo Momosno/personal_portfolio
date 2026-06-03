@@ -1,5 +1,6 @@
 'use client'
 import BookCover from "@/components/svg/BookCover"
+import Book from "@/components/svg/Book"
 import Image from "next/image";
 import { useState } from "react";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
@@ -36,7 +37,6 @@ export default function Projects({ projects }: { projects: Project[] }) {
 
                     />
                     <ProjectsInfo project={projects[currentIndex]} />
-
                 </div>
                 {/* Nav Arrows */}
                 <div>
@@ -44,16 +44,17 @@ export default function Projects({ projects }: { projects: Project[] }) {
                     <div onClick={nextProject} className="cursor-pointer absolute bottom-10 text-4xl right-3 text-naranja-primario/60 hover:text-naranja-primario"><FaChevronRight /></div>
                 </div>
             </div>
+
+
             {/* Desktop */}
-            <div className="hidden md:block">
-                <div>
-                    <Image
-                        className="drop-shadow-[0px_40px_20px_rgba(0,0,0,0.7)]"
-                        src="/svg/book.svg"
-                        alt="Open Book"
-                        width={850}
-                        height={750}
+            <div className="hidden md:block w-full max-h-dvh">
+                <div className="relative flex items-center justify-center ">
+                    <Book
+                        color={projects[currentIndex].color}
+                        className="drop-shadow-[0px_40px_20px_rgba(0,0,0,0.7)] md:w-3/4 lg:w-2/3"
+
                     />
+                    <ProjectsInfo project={projects[currentIndex]} />
                     <div onClick={prevProject} className="absolute bottom-1/2 text-4xl left-5 text-naranja-primario/60 hover:text-naranja-primario "><FaChevronLeft /></div>
                     <div onClick={nextProject} className="absolute bottom-1/2 text-4xl right-5 text-naranja-primario/60 hover:text-naranja-primario"><FaChevronRight /></div>
                 </div>
